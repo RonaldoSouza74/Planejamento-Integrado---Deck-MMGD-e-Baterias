@@ -1,0 +1,1 @@
+# Planejamento-Integrado---Deck-MMGD-e-Baterias
