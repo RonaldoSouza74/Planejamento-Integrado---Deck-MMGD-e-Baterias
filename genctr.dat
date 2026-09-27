@@ -1,0 +1,21 @@
+$version=3
+!Code,Name,signal,rhs_type,penalty [k$/unit],#terms,Res,PenType,InitialDate,FinalDate,Disabled
+1,LB ITAIPU,>=,0,1,5,0,0,,,0,0
+!Name,sys_id,var_name,coef,unit
+ITAIPU,it,HGen,1,MW
+ITAIPU,it,HInfl,-0.4,m3/s
+APERTADOS,su,HOutf,-0.4,m3/s
+P. PRIMAVERA,pa,HOutf,-0.4,m3/s
+ROSANA,pa,HOutf,-0.4,m3/s
+!RHS
+2000
+!Code,Name,signal,rhs_type,penalty [k$/unit],#terms,Res,PenType,InitialDate,FinalDate,Disabled
+2,UB ITAIPU,<=,0,1,5,0,0,,,0,0
+!Name,sys_id,var_name,coef,unit
+ITAIPU,it,HGen,1,MW
+ITAIPU,it,HInfl,-1.1,m3/s
+APERTADOS,su,HOutf,-1.1,m3/s
+P. PRIMAVERA,pa,HOutf,-1.1,m3/s
+ROSANA,pa,HOutf,-1.1,m3/s
+!RHS
+2000
